@@ -18,7 +18,7 @@ jobs:
 sudo rm -rf $out
 sudo mkdir -p ./out/openwrt
 sudo mkdir -p $”./media/rootfs”ir
-# 解压openwrt固件
+# 解压openwrt固件1
 cd $openwrt
 sudo tar -xzf *rootfs.tar.gz -C ../$out/openwrt
 # 拷贝openwrt rootfs
